@@ -67,7 +67,7 @@ timerSetBtn.addEventListener('click', () => {
     addTimerContainer.append(div);
 
     // clear all inputs fields
-    inputhours=' ';
-    inputminutes=' ';
-    inputseconds=' ';
+    inputhours.value='';
+    inputminutes.value='';
+    inputseconds.vlue='';
 });
