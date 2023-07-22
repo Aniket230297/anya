@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color:#1D1D23;
+    color: white;
+}
+
+#mainContainer{
+        width:70%;
+        height:70vh;
+        /* border:1px solid red; */
+        margin-left:15%;
+        margin-top:15vh;
+}
+
+#appName{
+    text-align: center;
+    margin-top: 10PX;
+}
+
+#timer{
+    width:50%;
+    height:40px;
+    border: 1px solid white;
+    border-radius:10px;
+    display: flex;
+    gap:10px;
+    margin-left: 25%;
+    margin-top: 20px;
+    
+}
+
+#hours, #minutes, #seconds{
+    width:40px;
+    border: none;
+    font-size: 20px;
+    outline: none;
+}
+
+#hours{
+    margin-left: 20px;
+}
+
+#timerName{
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+#spanCode{
+     font-size: 30px;
+}
+
+ /* Hide the increment and decrement arrows */
+ input[type="number"]::-webkit-inner-spin-button,
+ input[type="number"]::-webkit-outer-spin-button {
+   -webkit-appearance: none;
+   margin: 0;
+ }
+
+ #timerSetBtn{
+    width:50px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: yellow;
+    color: black;
+    margin-top: 5px;
+ }
+
+ #currentTimers{
+    width:20%;
+    height:25px;
+     /* border:1px solid pink;  */
+    text-align: center;
+    margin-left: 40%;
+    margin-top: 20px;
+    border-radius: 15px;
+    background-color:#39393E;
+ }
+
+ #currentTimers > p{
+    background-color: #39393E;
+    border-radius: 15px;
+    margin-top: 10PX;
+    font-size: 18px;
+ }
+
+ #timerscount{
+    text-align: center;
+    margin-top: 15px;
+ }
+
+ #timerDeleteBtn{
+    width:50px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: yellow;
+    color: black;
+    margin-top: 5px;
+ }
+
+ /* Add timer container coding */
+ #addTimerContainer{
+    width:100%;
+    /* border:1px solid green; */
+
+ }

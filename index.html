@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="mainContainer">
+    <h2 id="appName">Multiple Timers App</h2>
+
+    <!-- user set Timer -->
+
+    <div id="timer">
+        <h3 id="timerName">Set Time :</h3>
+        <input type="number" placeholder="hh" id="hours" min="0"><span id="spanCode">:</span>
+        <input type="number" placeholder="mm" id="minutes" min="0" max="59"><span id="spanCode">:</span>
+        <input type="number" placeholder="ss" id="seconds" min="0" max="59">
+
+        <button id="timerSetBtn">Set</button>
+    </div>
+
+    <div id="currentTimers"><p>Current Timers</p></div>
+    <div id="timerscount">You Have No Timers Currently !</div>
+    
+    <!-- add set timers in this container  -->
+
+    <div id="addTimerContainer">
+
+        <!-- <div id="timer">
+            <h3 id="timerName">Set Time :</h3>
+            <input type="number" placeholder="hh" id="hours" min="0"><span id="spanCode">:</span>
+            <input type="number" placeholder="mm" id="minutes" min="0" max="59"><span id="spanCode">:</span>
+            <input type="number" placeholder="ss" id="seconds" min="0" max="59">
+    
+            <button id="timerDeleteBtn">Delete</button>
+        </div> -->
+
+    </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
